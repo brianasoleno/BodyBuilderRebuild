@@ -6,6 +6,7 @@
 body,
 html {
     width:100%;
+    height:100%;
 }
 
 .main-header {
@@ -28,7 +29,7 @@ margin:0 auto;
     height:80px;
     max-width: 100%;
     background-color:red;
-    background-image:url('../img/sm-logo.jpg');
+    background-image:url('../img/logo.png');
     background-repeat:no-repeat;
     background-size: contain;
 
@@ -60,8 +61,21 @@ line-height:5;
     widows: 100%;
     height:380px;
     background-color:green;
-    background-image:url('../img/slider/slider.jpg');
+    background-image:url('../img/slider.jpg');
     background-repeat: no-repeat;
     background-size:cover;
 
+}
+
+/* main container */
+
+.main-container {
+width: 80%;
+height:100%;
+background-color:green;
+}
+
+/* top banner */
+.top-banner {
+    
 }
